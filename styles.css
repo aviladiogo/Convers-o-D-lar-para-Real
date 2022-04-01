@@ -1,6 +1,11 @@
 body{
-
+  background-image: url("https://64.media.tumblr.com/cb125143a28724c9a8873ec58b3c94a0/5d1e61136fc29810-7b/s1280x1920/43a4544d8e2a7bd8a2eebc96e0059026a632ea98.jpg");
 }
-.caixas {
-  list-style: none;
+
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 15px;
+  line-height: 35px;
+  
 }

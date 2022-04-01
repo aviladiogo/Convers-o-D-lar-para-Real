@@ -7,29 +7,29 @@
   </head>
   <body>
     <main><center>
-    <h1>Bem vindo Ao Convertor Dólar-Real do dioguinho</h1>
-  
-      <b>Insira a Cotação:<b> <br> 
-      <input id="Taxa" type="number"  ><br><br>
-      <button id="botao1" onclick="Disable()">Confirmar</button> <br><br><br>
+    <h1>Conversor Dólar-Real </h1>
+      <ul id= "caixa">
+        <li>
+          <b>Insira a Cotação:<b> <br> 
+          <input id="Taxa" type="number"  ><br>
+          <button id="botao1" onclick="Disable()">Confirmar</button> <br>
+        </li>
 
+        <li>
+        <b>Dolar para Real:</b><br> <input id="Dolar" type="number" ><br>
+        <button id="botao2" onclick="DtoR()" disabled>Converter</button> <br>
+        O resultado é <span id ="name">----</span>
+      </li>
+      <li>
+      <b>Real para Dolar:</b> <br><input id="Real" type="number" ><br>
+      <button id="botao3" onclick="RtoD()" disabled>Converter</button> <br>
+      O resultado é <span id ="name2">----</span><br>
+    </li>
+    <li>
+    <button id="botao4" onclick="Reset()" disabled>Reset</button> 
+  </li>
 
-
-      <b>Dolar para Real:</b><br> <input id="Dolar" type="number" ><br><br>
-      <button id="botao2" onclick="DtoR()" disabled>Converter</button> <br><br>
-      O resultado é <span id ="name">----</span> <br><br><br>
-   
-
-  
-     <b>Real para Dolar:</b> <br><input id="Real" type="number" ><br><br>
-     <button id="botao3" onclick="RtoD()" disabled>Converter</button> <br><br>
-     O resultado é <span id ="name2">----</span>  <br><br><br>
-      
-     <button id="botao4" onclick="Reset()" disabled>Reset</button> <br><br>
-      
-    
-
- 
+      </ul>
   </center> </main>
     
   </body>
